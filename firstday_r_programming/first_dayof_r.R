@@ -2,15 +2,7 @@
 
 # Data types
 # integer 
-x= 8
- 
-# float
-y= 9.0
 
-#String 
-z = 'R for Data Science'
-
-
-# Bolean 
-K = TRUE
+# how to install packages
+setRepositories()
 
