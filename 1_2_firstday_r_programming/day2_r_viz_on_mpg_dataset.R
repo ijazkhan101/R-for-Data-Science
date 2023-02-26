@@ -10,15 +10,16 @@
 
 # ggplot(data= df , aes (x =height , y=width )) + geom_bar
 
-
+data("mpg")
 install.packages("ggplot2", dependencies = TRUE)
 library(ggplot2)
 
 # Data load data
-data(mpg)
-ggplot(data=mpg , aes( x= cty , y=hwy))+geom_point()
 
+ggplot(data=mpg , aes( x= cty , y=hwy))+geom_point()
 p1 <- ggplot(data=mpg , aes( x= cty , y=hwy , col ='manufacturer'))+geom_point()
+
+p1
 
 
 p1
