@@ -18,7 +18,8 @@ str(diamonds)
 
 # visualization and explore the categorical data 
 
+qplot(diamonds$cut)
 
-
+qplot(cut , data =diamonds)
 
 
